@@ -61,3 +61,13 @@ Example - Run the `idl` tool on `test.avdl`, outputting to a file called `test.a
 Example - Run the `idl2schemata` tool on `test.avdl`, outputting to files in the local directory:
 
     docker run --rm -v `pwd`:/share coderfi/avro-tools idl2schemata test.avdl
+
+
+Windows (powershell):
+
+Build image:
+
+	Get-Content Dockerfile | docker build . --tag avro-tools
+	
+Run:
+	docker run -v "$((Get-Location).Path):/share" avro-tools idl test.avdl test.avpr		
