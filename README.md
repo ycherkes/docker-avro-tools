@@ -1,13 +1,13 @@
 Avro Tools Docker
 =================
 
-Docker around the [Avro Tool](http://avro.apache.org/docs/1.7.7).
+Docker around the [Avro Tool](http://avro.apache.org/docs/1.10.0).
 
 Example - Get Help:
 
     docker run --rm -v `pwd`:/share coderfi/avro-tools
 
-    Version 1.7.7 of Apache Avro
+    Version 1.10.0 of Apache Avro
     Copyright 2010 The Apache Software Foundation
 
     This product includes software developed at
