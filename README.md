@@ -70,4 +70,5 @@ Build image:
 	Get-Content Dockerfile | docker build . --tag avro-tools
 	
 Run:
+
 	docker run -v "$((Get-Location).Path):/share" avro-tools idl test.avdl test.avpr		
