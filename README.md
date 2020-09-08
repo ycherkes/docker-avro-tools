@@ -71,4 +71,4 @@ Build image:
 	
 Run:
 
-	docker run -v "$((Get-Location).Path):/share" avro-tools idl test.avdl test.avpr		
+	docker run --rm -v "$((Get-Location).Path):/share" avro-tools idl test.avdl test.avpr		
